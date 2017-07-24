@@ -22,6 +22,9 @@ In its default configuration, Petclinic uses an in-memory database (HSQLDB) whic
 gets populated at startup with data. A similar setup is provided for MySql in case a persistent database configuration is needed.
 Note that whenever the database type is changed, the data-access.properties file needs to be updated and the mysql-connector-java artifact from the pom.xml needs to be uncommented.
 
+#--------------------------------
+*** update the endpoint of DB instance in : petclinic/src/main/resources/spring/data-access.properties
+#--------------------------------
 You may start a MySql database with docker:
 
 ```
